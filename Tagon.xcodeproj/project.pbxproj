@@ -1,0 +1,610 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		8E2D4D5F26151401009057BE /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8E2D4D5E26151401009057BE /* AppDelegate.swift */; };
+		8E2D4D6126151401009057BE /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8E2D4D6026151401009057BE /* SceneDelegate.swift */; };
+		8E2D4D6326151401009057BE /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8E2D4D6226151401009057BE /* ViewController.swift */; };
+		8E2D4D6626151401009057BE /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 8E2D4D6426151401009057BE /* Main.storyboard */; };
+		8E2D4D6826151402009057BE /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 8E2D4D6726151402009057BE /* Assets.xcassets */; };
+		8E2D4D6B26151402009057BE /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 8E2D4D6926151402009057BE /* LaunchScreen.storyboard */; };
+		8E2D4D7626151402009057BE /* TagonTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8E2D4D7526151402009057BE /* TagonTests.swift */; };
+		8E2D4D8126151402009057BE /* TagonUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8E2D4D8026151402009057BE /* TagonUITests.swift */; };
+		8E841A102617BAC8008C46DF /* MediaPlayer.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 8E841A0F2617BAC8008C46DF /* MediaPlayer.framework */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		8E2D4D7226151402009057BE /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 8E2D4D5326151401009057BE /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 8E2D4D5A26151401009057BE;
+			remoteInfo = Tagon;
+		};
+		8E2D4D7D26151402009057BE /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 8E2D4D5326151401009057BE /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 8E2D4D5A26151401009057BE;
+			remoteInfo = Tagon;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		8E2D4D5B26151401009057BE /* Tagon.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Tagon.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		8E2D4D5E26151401009057BE /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		8E2D4D6026151401009057BE /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
+		8E2D4D6226151401009057BE /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		8E2D4D6526151401009057BE /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		8E2D4D6726151402009057BE /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		8E2D4D6A26151402009057BE /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		8E2D4D6C26151402009057BE /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		8E2D4D7126151402009057BE /* TagonTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = TagonTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		8E2D4D7526151402009057BE /* TagonTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TagonTests.swift; sourceTree = "<group>"; };
+		8E2D4D7726151402009057BE /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		8E2D4D7C26151402009057BE /* TagonUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = TagonUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		8E2D4D8026151402009057BE /* TagonUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TagonUITests.swift; sourceTree = "<group>"; };
+		8E2D4D8226151402009057BE /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		8E841A0F2617BAC8008C46DF /* MediaPlayer.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = MediaPlayer.framework; path = System/Library/Frameworks/MediaPlayer.framework; sourceTree = SDKROOT; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		8E2D4D5826151401009057BE /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8E841A102617BAC8008C46DF /* MediaPlayer.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		8E2D4D6E26151402009057BE /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		8E2D4D7926151402009057BE /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		8E2D4D5226151401009057BE = {
+			isa = PBXGroup;
+			children = (
+				8E2D4D5D26151401009057BE /* Tagon */,
+				8E2D4D7426151402009057BE /* TagonTests */,
+				8E2D4D7F26151402009057BE /* TagonUITests */,
+				8E2D4D5C26151401009057BE /* Products */,
+				8E841A0E2617BAC8008C46DF /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		8E2D4D5C26151401009057BE /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				8E2D4D5B26151401009057BE /* Tagon.app */,
+				8E2D4D7126151402009057BE /* TagonTests.xctest */,
+				8E2D4D7C26151402009057BE /* TagonUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		8E2D4D5D26151401009057BE /* Tagon */ = {
+			isa = PBXGroup;
+			children = (
+				8E2D4D5E26151401009057BE /* AppDelegate.swift */,
+				8E2D4D6026151401009057BE /* SceneDelegate.swift */,
+				8E2D4D6226151401009057BE /* ViewController.swift */,
+				8E2D4D6426151401009057BE /* Main.storyboard */,
+				8E2D4D6726151402009057BE /* Assets.xcassets */,
+				8E2D4D6926151402009057BE /* LaunchScreen.storyboard */,
+				8E2D4D6C26151402009057BE /* Info.plist */,
+			);
+			path = Tagon;
+			sourceTree = "<group>";
+		};
+		8E2D4D7426151402009057BE /* TagonTests */ = {
+			isa = PBXGroup;
+			children = (
+				8E2D4D7526151402009057BE /* TagonTests.swift */,
+				8E2D4D7726151402009057BE /* Info.plist */,
+			);
+			path = TagonTests;
+			sourceTree = "<group>";
+		};
+		8E2D4D7F26151402009057BE /* TagonUITests */ = {
+			isa = PBXGroup;
+			children = (
+				8E2D4D8026151402009057BE /* TagonUITests.swift */,
+				8E2D4D8226151402009057BE /* Info.plist */,
+			);
+			path = TagonUITests;
+			sourceTree = "<group>";
+		};
+		8E841A0E2617BAC8008C46DF /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				8E841A0F2617BAC8008C46DF /* MediaPlayer.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		8E2D4D5A26151401009057BE /* Tagon */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 8E2D4D8526151402009057BE /* Build configuration list for PBXNativeTarget "Tagon" */;
+			buildPhases = (
+				8E2D4D5726151401009057BE /* Sources */,
+				8E2D4D5826151401009057BE /* Frameworks */,
+				8E2D4D5926151401009057BE /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Tagon;
+			productName = Tagon;
+			productReference = 8E2D4D5B26151401009057BE /* Tagon.app */;
+			productType = "com.apple.product-type.application";
+		};
+		8E2D4D7026151402009057BE /* TagonTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 8E2D4D8826151402009057BE /* Build configuration list for PBXNativeTarget "TagonTests" */;
+			buildPhases = (
+				8E2D4D6D26151402009057BE /* Sources */,
+				8E2D4D6E26151402009057BE /* Frameworks */,
+				8E2D4D6F26151402009057BE /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				8E2D4D7326151402009057BE /* PBXTargetDependency */,
+			);
+			name = TagonTests;
+			productName = TagonTests;
+			productReference = 8E2D4D7126151402009057BE /* TagonTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		8E2D4D7B26151402009057BE /* TagonUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 8E2D4D8B26151402009057BE /* Build configuration list for PBXNativeTarget "TagonUITests" */;
+			buildPhases = (
+				8E2D4D7826151402009057BE /* Sources */,
+				8E2D4D7926151402009057BE /* Frameworks */,
+				8E2D4D7A26151402009057BE /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				8E2D4D7E26151402009057BE /* PBXTargetDependency */,
+			);
+			name = TagonUITests;
+			productName = TagonUITests;
+			productReference = 8E2D4D7C26151402009057BE /* TagonUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		8E2D4D5326151401009057BE /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1240;
+				LastUpgradeCheck = 1240;
+				TargetAttributes = {
+					8E2D4D5A26151401009057BE = {
+						CreatedOnToolsVersion = 12.4;
+					};
+					8E2D4D7026151402009057BE = {
+						CreatedOnToolsVersion = 12.4;
+						TestTargetID = 8E2D4D5A26151401009057BE;
+					};
+					8E2D4D7B26151402009057BE = {
+						CreatedOnToolsVersion = 12.4;
+						TestTargetID = 8E2D4D5A26151401009057BE;
+					};
+				};
+			};
+			buildConfigurationList = 8E2D4D5626151401009057BE /* Build configuration list for PBXProject "Tagon" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 8E2D4D5226151401009057BE;
+			productRefGroup = 8E2D4D5C26151401009057BE /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				8E2D4D5A26151401009057BE /* Tagon */,
+				8E2D4D7026151402009057BE /* TagonTests */,
+				8E2D4D7B26151402009057BE /* TagonUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		8E2D4D5926151401009057BE /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8E2D4D6B26151402009057BE /* LaunchScreen.storyboard in Resources */,
+				8E2D4D6826151402009057BE /* Assets.xcassets in Resources */,
+				8E2D4D6626151401009057BE /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		8E2D4D6F26151402009057BE /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		8E2D4D7A26151402009057BE /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		8E2D4D5726151401009057BE /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8E2D4D6326151401009057BE /* ViewController.swift in Sources */,
+				8E2D4D5F26151401009057BE /* AppDelegate.swift in Sources */,
+				8E2D4D6126151401009057BE /* SceneDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		8E2D4D6D26151402009057BE /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8E2D4D7626151402009057BE /* TagonTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		8E2D4D7826151402009057BE /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8E2D4D8126151402009057BE /* TagonUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		8E2D4D7326151402009057BE /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 8E2D4D5A26151401009057BE /* Tagon */;
+			targetProxy = 8E2D4D7226151402009057BE /* PBXContainerItemProxy */;
+		};
+		8E2D4D7E26151402009057BE /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 8E2D4D5A26151401009057BE /* Tagon */;
+			targetProxy = 8E2D4D7D26151402009057BE /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		8E2D4D6426151401009057BE /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				8E2D4D6526151401009057BE /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		8E2D4D6926151402009057BE /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				8E2D4D6A26151402009057BE /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		8E2D4D8326151402009057BE /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.4;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		8E2D4D8426151402009057BE /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.4;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		8E2D4D8626151402009057BE /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = VTLJCKNZ2S;
+				INFOPLIST_FILE = Tagon/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = net.silverratio.Tagon;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		8E2D4D8726151402009057BE /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = VTLJCKNZ2S;
+				INFOPLIST_FILE = Tagon/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = net.silverratio.Tagon;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		8E2D4D8926151402009057BE /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = VTLJCKNZ2S;
+				INFOPLIST_FILE = TagonTests/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.4;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = net.silverratio.TagonTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Tagon.app/Tagon";
+			};
+			name = Debug;
+		};
+		8E2D4D8A26151402009057BE /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = VTLJCKNZ2S;
+				INFOPLIST_FILE = TagonTests/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.4;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = net.silverratio.TagonTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Tagon.app/Tagon";
+			};
+			name = Release;
+		};
+		8E2D4D8C26151402009057BE /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = VTLJCKNZ2S;
+				INFOPLIST_FILE = TagonUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = net.silverratio.TagonUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = Tagon;
+			};
+			name = Debug;
+		};
+		8E2D4D8D26151402009057BE /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = VTLJCKNZ2S;
+				INFOPLIST_FILE = TagonUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = net.silverratio.TagonUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = Tagon;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		8E2D4D5626151401009057BE /* Build configuration list for PBXProject "Tagon" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				8E2D4D8326151402009057BE /* Debug */,
+				8E2D4D8426151402009057BE /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		8E2D4D8526151402009057BE /* Build configuration list for PBXNativeTarget "Tagon" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				8E2D4D8626151402009057BE /* Debug */,
+				8E2D4D8726151402009057BE /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		8E2D4D8826151402009057BE /* Build configuration list for PBXNativeTarget "TagonTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				8E2D4D8926151402009057BE /* Debug */,
+				8E2D4D8A26151402009057BE /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		8E2D4D8B26151402009057BE /* Build configuration list for PBXNativeTarget "TagonUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				8E2D4D8C26151402009057BE /* Debug */,
+				8E2D4D8D26151402009057BE /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 8E2D4D5326151401009057BE /* Project object */;
+}
